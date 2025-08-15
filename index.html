@@ -4,78 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo - Adriel Miguel Duarte de Melo</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.5em;
-            color: #4CAF50;
-        }
-        .contact-info {
-            margin: 10px 0;
-            font-size: 1.1em;
-        }
-        .section {
-            background: white;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #4CAF50;
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 5px;
-        }
-        .metric {
-            margin: 10px 0;
-        }
-        .metric-label {
-            font-weight: bold;
-        }
-        .bar {
-            background: #4CAF50;
-            height: 20px;
-            border-radius: 5px;
-            transition: width 0.5s;
-        }
-        .bar-container {
-            background: #e0e0e0;
-            border-radius: 5px;
-            overflow: hidden;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #777;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin: 5px 0;
-        }
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2em;
-            }
-            .contact-info {
-                font-size: 1em;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
 </head>
 <body>
 
@@ -134,6 +63,7 @@
 
     <section class="section">
         <h2>Hard Skills</h2>
+        <div class="skills-label">Hard Skills:</div>
         <div class="metric">
             <span class="metric-label">Python (Básico)</span>
             <div class="bar-container">
@@ -192,6 +122,7 @@
 
     <section class="section">
         <h2>Soft Skills</h2>
+        <div class="skills-label">Soft Skills:</div>
         <ul>
             <li>Trabalho em equipe</li>
             <li>Comunicação eficaz</li>
